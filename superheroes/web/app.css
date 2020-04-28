@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background: url('cape.gif') no-repeat center;
+    background-size: contain;
+    background-color: #eee;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin: 20 auto;
+}
+
+table#list,
+table#list td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+thead {
+    font-weight: bolder;
+}
